@@ -39,6 +39,11 @@ body {
     font-family: 'Chivo', sans-serif;
 }
 
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
 /*-----------
   Typography 
 ------------*/
@@ -69,6 +74,22 @@ main {
     text-align: center;
 }
 
-.logos img {
-    height: 1.0593rem;
+
+
+@media only screen and (min-width: 768px) {
+    
+ 
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+/* reverses order of podcast logos and signup inputs */
+.signup :nth-child(2) {
+    order: 1;
+}
+.signup :nth-child(1) {
+    order: 2;
+}
+
 }
