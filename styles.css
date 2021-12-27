@@ -39,10 +39,10 @@ body {
     font-family: 'Chivo', sans-serif;
 }
 
-img, picture {
+/* img, picture {
     max-width: 100%;
     display: block;
-}
+} */
 
 /*-----------
   Typography 
@@ -74,22 +74,67 @@ main {
     text-align: center;
 }
 
+.text p {
+    margin-top: 1rem;
+}
 
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.0625rem;
+}
+
+.logos img {
+    width: 100%;
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: 3rem;
+}
+
+/*-------
+  Form 
+--------*/
+
+input, button {
+    border: none;
+    border-radius: 1.75rem;
+    font-size: .875rem;
+    font-weight: 700;
+    height: 2.875rem;
+    width: 100%;
+}
+
+input {
+    background-color: var(--background-dark);
+    color: var(--primary-text);
+    padding-left: 2rem;
+}
+
+button {
+     background-color: var(--accent-color);
+}
+
+
+/*--------------
+  Media Queries  
+---------------*/
 
 @media only screen and (min-width: 768px) {
     
- 
-.signup {
-    display: flex;
-    flex-direction: column;
-}
+    .signup {
+        display: flex;
+        flex-direction: column;
+    }
 
-/* reverses order of podcast logos and signup inputs */
-.signup :nth-child(2) {
-    order: 1;
-}
-.signup :nth-child(1) {
-    order: 2;
-}
+    /* reverses order of podcast logos and signup inputs */
+    .signup :nth-child(2) {
+        order: 1;
+    }
+    .signup :nth-child(1) {
+        order: 2;
+    }
 
 }
