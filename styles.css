@@ -91,7 +91,7 @@ form {
 }
 
 /*-------
-  Form 
+  Form
 --------*/
 
 input, button {
@@ -113,6 +113,11 @@ button {
      background-color: var(--accent-color);
 }
 
+.input-wrapper small {
+    color: #FB3E3E;
+    font-size: .75rem;
+    padding-left: 2rem;
+}
 
 /*---------------
   Tablet Screens  
