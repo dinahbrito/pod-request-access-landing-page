@@ -123,9 +123,10 @@ button {
     /* Global */
    body {
     background-blend-mode: screen;
-    background-image: url(./assets/tablet/image-host.jpg);
-    background-position: top right;
-    background-size: contain;
+    background-image: url(./assets/tablet/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
+    background-position: top right, bottom left 30px;
+    background-size: initial;
+    height: 100vh;
     }
 
 
@@ -183,6 +184,7 @@ button {
     .signup form {
         order: 1;
     }
+
 
     /* Form components */
 
