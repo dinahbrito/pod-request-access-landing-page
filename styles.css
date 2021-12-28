@@ -135,8 +135,8 @@ button:hover {
     /* Global */
    body {
     background-blend-mode: normal, screen;
-    background-image: url(./assets/tablet/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
-    background-position: top right, bottom left 30px;
+    background-image: url(./assets/desktop/bg-pattern-dots.svg), url(./assets/tablet/image-host.jpg);
+    background-position:  bottom left 30px, top right;
     background-size: initial;
     height: 100vh;
     }
