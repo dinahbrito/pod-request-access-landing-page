@@ -123,23 +123,58 @@ button {
 ---------------*/
 
 @media only screen and (min-width: 768px) {
-    
+    /* Typography */
+    h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    /* Layout */
+
+    body {
+        background-image: url(./assets/tablet/image-host.jpg);
+        background-position: top right;
+        background-size: contain;
+    }
+
     .signup {
         display: flex;
         flex-direction: column;
     }
 
-    /* .body-text {
+    .body-text {
         background-color: grey;
-        padding-top:
-    } */
+        padding-top: 5.8125rem;
+        text-align: left;
+    } 
+
+    .text p {
+        width: 27.8123rem;
+    }
 
     /* reverses order of podcast logos and signup inputs */
-    .signup .logos {
+      .signup .logos {
         order: 2;
     }
     .signup form {
         order: 1;
     }
+
+    /* Form components */
+
+    form {
+        display: flex;
+        width: 26.688rem;
+    }
+
+    input {
+        width: 26.688rem;
+    }
+  
 
 }
