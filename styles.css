@@ -134,7 +134,7 @@ button:hover {
    
     /* Global */
    body {
-    background-blend-mode: normal, screen;
+    background-blend-mode: normal;
     background-image: url(./assets/desktop/bg-pattern-dots.svg), url(./assets/tablet/image-host.jpg);
     background-position:  bottom left 30px, top right;
     background-size: initial;
@@ -249,8 +249,8 @@ button:hover {
 @media only screen and (min-width: 1300px) {
     /* Global */
     body {
-        background-image: url(./assets/desktop/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
-        background-position: center right, bottom 78px right;
+        background-image: url(./assets/desktop/bg-pattern-dots.svg), url(./assets/desktop/image-host.jpg);
+        background-position: bottom 78px right, center right;
         background-size: initial;
     }
 
