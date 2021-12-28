@@ -81,7 +81,7 @@ main {
 }
 
 .logos img {
-    max-height: 1.0625rem;
+    height: 1.0625rem;
     width: auto;
 }
 
@@ -112,6 +112,7 @@ input {
 
 button {
      background-color: var(--accent-color);
+     font-weight: 300;
 }
 
 button:hover {
@@ -181,14 +182,33 @@ button:hover {
     }
 
     .logos {
+        height: 1.8rem;
         margin-top: 2rem;
         width: 33.5rem;
+        align-items: center;
     }
 
-    .logos img {
-        height: 1.8125rem;
-        justify-content: space-around;
+   .logos img {
+       height: 1.8rem;
+   }
+
+    .logos img:first-child {
+        width: 96px;
+        margin-right: 40px;
     }
+
+    .logos img:nth-child(2) {
+        width: 78px;
+        margin-right: 41px;
+    }
+
+    .logos img:nth-child(3) {
+        width: 125px;
+        height: 18px;
+        margin-right: 27px;
+    }
+
+   
 
     /* reverses order of podcast logos and signup inputs */
       .signup .logos {
@@ -250,7 +270,7 @@ button:hover {
     }
 
     .body-text {
-        margin-top: -58px;
+        margin-top: -56px;
         width: 45.1875rem;
     }
 
