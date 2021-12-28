@@ -273,11 +273,13 @@ button:hover {
     }
 
     .body-text {
+        height: 45.1875rem;
         margin-top: -55px;
         width: 45.1875rem;
     }
 
     .logos {
         margin-top: 2rem;
+        background-color: var(--background);
     }
 }
