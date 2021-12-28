@@ -246,7 +246,7 @@ button:hover {
 /*---------------
   Larger Screens  
 ----------------*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1300px) {
     /* Global */
     body {
         background-image: url(./assets/desktop/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
@@ -272,7 +272,7 @@ button:hover {
     }
 
     .body-text {
-        height: 32rem;
+        height: 40rem;
         margin-top: -55px;
         width: 45.1875rem;
     }
