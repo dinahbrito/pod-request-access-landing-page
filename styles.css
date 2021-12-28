@@ -82,7 +82,7 @@ main {
 
 .logos img {
     height: 1.0625rem;
-    mix-blend-mode: screen;
+    mix-blend-mode: hard-light;
     width: auto;
 }
 
