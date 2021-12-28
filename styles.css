@@ -129,12 +129,17 @@ button {
         flex-direction: column;
     }
 
+    /* .body-text {
+        background-color: grey;
+        padding-top:
+    } */
+
     /* reverses order of podcast logos and signup inputs */
-    .signup :nth-child(2) {
-        order: 1;
-    }
-    .signup :nth-child(1) {
+    .signup .logos {
         order: 2;
+    }
+    .signup form {
+        order: 1;
     }
 
 }
