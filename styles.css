@@ -82,6 +82,7 @@ main {
 
 .logos img {
     height: 1.0625rem;
+    mix-blend-mode: screen;
     width: auto;
 }
 
@@ -256,7 +257,9 @@ button:hover {
 
     /* Typography */
     h1 {
-        margin-bottom: 2.5rem;
+        font-size: 3.25rem;
+        line-height: 3.875rem;
+        margin-bottom: 2.4rem;
     }
 
     /* Layout */
