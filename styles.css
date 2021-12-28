@@ -114,9 +114,9 @@ button {
 }
 
 
-/*--------------
-  Media Queries  
----------------*/
+/*---------------
+  Tablet Screens  
+----------------*/
 
 @media only screen and (min-width: 768px) {
    
@@ -142,7 +142,7 @@ button {
 
     /* Layout */
     main {
-        margin: 0;
+        margin-bottom: 0;
         margin-top: 3.125rem;
         margin-left: 2.4375rem;
         text-align: left;
@@ -151,6 +151,7 @@ button {
     header {
         margin-bottom: 9.5rem;
     }
+
     .signup {
         display: flex;
         flex-direction: column;
@@ -204,3 +205,29 @@ button {
     }
 }
 
+/*---------------
+  Larger Screens  
+----------------*/
+@media only screen and (min-width: 1000px) {
+    /* Global */
+    body {
+        background-blend-mode: screen;
+        background-image: url(./assets/desktop/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
+        background-position: center right, bottom 78px right;
+        background-size: initial;
+    }
+
+    /* Layout */
+    main {
+        margin-top: 0;
+        margin-left: 10.3125rem;
+    }
+
+    header {
+        padding-top: 6.375rem;
+    }
+
+    .body-text {
+        width: 45.1875rem;
+    }
+}
