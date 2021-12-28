@@ -113,6 +113,10 @@ button {
      background-color: var(--accent-color);
 }
 
+button:hover {
+    background-color: #B3FFE2;
+}
+
 .input-wrapper small {
     color: #FB3E3E;
     font-size: .75rem;
