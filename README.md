@@ -22,6 +22,7 @@ Users should be able to:
 ## Built With
 
 - JavaScript
+- Custom properties
 - Semantic HTML5 markup
 - Flexbox
 - CSS Grid
