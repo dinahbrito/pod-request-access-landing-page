@@ -70,6 +70,7 @@ main {
 }
 
 .text p {
+    font-weight: 300;
     margin-top: 1rem;
 }
 
@@ -141,6 +142,7 @@ button:hover {
     /* Typography */
     h1 {
         font-size: 3rem;
+        font-weight: 300;
         line-height: 3.5rem;
     }
 
@@ -174,7 +176,7 @@ button:hover {
     } 
 
     .text p {
-        width: 27.8123rem;
+        width: 27.8125rem;
     }
 
     .logos {
@@ -201,6 +203,10 @@ button:hover {
         width: 26.688rem;
         margin-bottom: 4rem;
         margin-top: 2.5rem;
+    }
+
+    input, button {
+        height: 3.5rem;
     }
 
     input {

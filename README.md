@@ -1,5 +1,5 @@
 
-# [Frontend Mentor](frontendmentor.io/) - Pod Request access landing page
+# [Frontend Mentor](frontendmentor.io/) - Pod request access landing page
 ![](./assets/screenshot.jpg)
 
 ## The challenge
